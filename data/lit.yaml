@@ -1,0 +1,11 @@
+items:
+  - title: The Next Big Cheap
+    author: Pendergrast
+    year: 2019
+    level: undergrad
+    source: [web](https://reallifemag.com/the-next-big-cheap/)
+  - title: Critical Questions For Big Data
+    author: boyd & Crawford
+    year: 2012
+    level: general
+    source: [pdf](https://people.cs.kuleuven.be/~bettina.berendt/teaching/ViennaDH15/boyd_crawford_2012.pdf)
