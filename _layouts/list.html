@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+{{ content }}
+
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Author(s)</th>
+    <th>Year</th>
+    <th>Level (general, undergrad, grad)</th>
+    <th>Source</th>
+  </tr>
+  {% for item in site.data.lit.items %}
+
+  <tr>
+    <td>{item.title}</td>
+    <td>{item.author}</td>
+    <td>{item.year}</td>
+    <td>{item.level}</td>
+    <td>{item.source}</td>
+  </tr>
+  {% endfor %}
+</table>
