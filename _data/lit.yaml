@@ -3,9 +3,20 @@ items:
     author: Pendergrast
     year: 2019
     level: undergrad
-    source: "[web](https://reallifemag.com/the-next-big-cheap/)"
+    source:
+      type: web
+      link: "https://reallifemag.com/the-next-big-cheap/"
   - title: Critical Questions For Big Data
     author: boyd & Crawford
     year: 2012
     level: general
-    source: "[pdf](https://people.cs.kuleuven.be/~bettina.berendt/teaching/ViennaDH15/boyd_crawford_2012.pdf)"
+    source:
+      type: pdf
+      link: "https://people.cs.kuleuven.be/~bettina.berendt/teaching/ViennaDH15/boyd_crawford_2012.pdf"
+  - title: The Seductive Diversion of ‘Solving’ Bias in Artificial Intelligence
+    author: Powles
+    year: 2018
+    level: general
+    source:
+      type: web
+      link: "https://onezero.medium.com/the-seductive-diversion-of-solving-bias-in-artificial-intelligence-890df5e5ef53"

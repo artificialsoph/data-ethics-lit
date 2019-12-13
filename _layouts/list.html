@@ -19,7 +19,7 @@ layout: default
     <td>{{item.author}}</td>
     <td>{{item.year}}</td>
     <td>{{item.level}}</td>
-    <td>{{item.source}}</td>
+    <td><a href="{{item.source.link}}">{{item.source.type}}</a></td>
   </tr>
   {% endfor %}
 </table>
